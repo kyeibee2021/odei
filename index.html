@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Fitness tips</title>
+  </head>
+  <body>
+    <div class="flex items-center justify-center h-screen">
+      <div class="bg-yellow-300 p-2 mx-6 rounded-xl">
+        <div class="flex flex-col md:flex-row">
+          <img
+            src="photo_2023-10-16_08-32-57.jpg"
+            alt=""
+            class="object-fit rounded-xl h-80 md:60 transform hover:scale-105"
+          />
+
+          <div class="p-5 md:p-12">
+            <h1 class="font-serif text-xl font-normal text-center md:text-left">
+              Get diet and fitness tips in your inbox
+            </h1>
+            <p
+              class="max-w-sm my-4 text-sm text-center tracking-wide md:text-left"
+            >
+              Eat better and exercis better.Sign up for the Diet&Fitness
+              newsletter.
+            </p>
+            <div
+              class="flex flex-col mt-5 space-y-4 md:flex-row md:space-x-3 md:space-y-0"
+            >
+              <input
+                type="text"
+                placeholder="Enter your email address"
+                class="p-2 px-5 text-center border border-zinc-500 rounded-lg md:text-left focus:outline-none"
+              />
+              <button
+                class="bg-red-300 hover:bg-red-400 hover:text-white md:bg-lime-600 px-5 py-2 rounded-lg text-sm text-zinc-700"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
